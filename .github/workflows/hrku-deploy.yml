@@ -9,13 +9,13 @@ jobs:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.12.12
         with:
-          heroku_api_key: ${{secrets.HEROKU_API}}
-          heroku_app_name: ${{secrets.HEROKU_APP}}
-          heroku_email: ${{secrets.HEROKU_EMAIL}}
+          heroku_api_key: ${{secrets.6961bd22-4bf2-464d-bac7-6d0004d70086}
+          heroku_app_name: ${{secrets.mynameis}}
+          heroku_email: ${{secrets.ekasulistyaaji01@gmail}}
           usedocker: true
           docker_heroku_process_type: worker
           stack: "container"
-          region: ${{secrets.HEROKU_REGION}}
+          region: ${{secrets.us}}
         env:
-          HD_HEROKU_APP_NAME: ${{secrets.HEROKU_APP}}
-          HD_HEROKU_API_KEY: ${{secrets.HEROKU_API}}
+          HD_HEROKU_APP_NAME: ${{secrets.mynameis}}
+          HD_HEROKU_API_KEY: ${{secrets.6961bd22-4bf2-464d-bac7-6d0004d70086}}
